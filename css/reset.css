@@ -30,9 +30,12 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+
+li {
+	margin-top: 10px;
+	border: 1px; solid-grey;
 }
-ol, ul {
-	list-style: none;
+
 }
 blockquote, q {
 	quotes: none;
