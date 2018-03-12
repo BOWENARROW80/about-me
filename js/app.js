@@ -1,4 +1,4 @@
-// 'use strict';
+'use strict';
 
 // consent to play
 alert('WOULD YOU LIKE TO PLAY A GAME?');
