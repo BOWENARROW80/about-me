@@ -10,55 +10,51 @@ console.log('Yes or no questions');
 
 // 1st question: what's my favorite show
 function vampire(){
-    var Buff = prompt('Do you think I liked Buffy the vampie Slayer?').toLowerCase();
-    console.log('favorite show');
-    if(Buff.toLowerCase() === 'yes' ) {
-      alert('that is correct! You win a cookie.');
-    } else {
-      alert('Wrong! The Earth is doomed.');
-    }
+  var Buff = prompt('Do you think I liked Buffy the vampie Slayer?').toLowerCase();
+  console.log('favorite show');
+  if(Buff.toLowerCase() === 'yes' ) {
+    alert('that is correct! You win a cookie.');
+  } else {
+    alert('Wrong! The Earth is doomed.');
   }
-  vampire();
+}vampire();
 
 // 2nd question: Do I like seafood
 function seafood() {
-    var food =prompt('do I like seafood?').toLowerCase();
-    console.log('seafood is the best');
-    if(food.toLowerCase() === 'yes' ) {
-      alert('Yes, I\'m a seafood-a-saurus');
-    } else {
-      alert('Wrong! If you don\'t know me by now. You will never never know me.');
-    }
+  var food =prompt('do I like seafood?').toLowerCase();
+  console.log('seafood is the best');
+  if(food.toLowerCase() === 'yes' ) {
+    alert('Yes, I\'m a seafood-a-saurus');
+  } else {
+    alert('Wrong! If you don\'t know me by now. You will never never know me.');
   }
-  
-  seafood();
+}
+seafood();
 
 // 3rd question: Do I wear glasses
 function eyes() {
-    var glasses =prompt('Do I wear glasses?').toLowerCase();
-    console.log('I am blind');
-    if(glasses.toLowerCase() === 'yes' ) {
-      alert('Yup, so thick I can see into the future');
-    } else {
-      alert('Who said that? I can\'t see you.');
-    }
+  var glasses =prompt('Do I wear glasses?').toLowerCase();
+  console.log('I am blind');
+  if(glasses.toLowerCase() === 'yes' ) {
+    alert('Yup, so thick I can see into the future');
+  } else {
+    alert('Who said that? I can\'t see you.');
   }
-  
-  eyes();
+}
+eyes();
 
-  // 4th question: Do I walk
-
+// 4th question: Do I walk
 function walk() {
-    var Transport =prompt('Do I walk to class?').toLowerCase();
-    console.log('walk or bus');
-    if(Transport.toLowerCase() === 'yes' ) {
-      alert('No, Walkings for suckers');
-    } else {
-      alert('Kinda, The wheels on the bus go round and round');
-    }
+  var Transport =prompt('Do I walk to class?').toLowerCase();
+  console.log('walk or bus');
+  if(Transport.toLowerCase() === 'yes' ) {
+    alert('No, Walkings for suckers');
+  } else {
+    alert('Kinda, The wheels on the bus go round and round');
   }
+}
   
-  walk();
+walk();
 
 
 // 5th question: fear of clowns
@@ -80,25 +76,26 @@ console.log('changing the game');
 
 // 6th question: Favorite color
 function color() {
-var color =prompt('what is one of my two favorite colors?').toLowerCase();
-var colorArray = ["purple", "blue"];
-console.log('My colors');
-for(var i = 0; i < 4; i++){
-        console.log(i);
-        for(var counter = 0; counter < colorArray.length; counter = counter + 1) {
-            if(color === colorArray[counter]) {
-                alert('You got it!')
-                break;
-            }
+  var color =prompt('what is one of my two favorite colors?').toLowerCase();
+  var colorArray = ["purple", "blue"];
+  console.log('My colors');
+  for(var i = 0; i < 4; i++){
+    console.log(i);
+    for(var counter = 0; counter < colorArray.length; counter = counter + 1) {
+      if(color === colorArray[counter]) {
+        alert('You got it!')
+        break;
+      }
     }
-   if(counter < colorArray.length){
-    break;
-  } else {
-    alert('color me bad, wrong answer');
-    console.log('not my color');
-   }
- }
+    if(counter < colorArray.length){
+      break;
+    } else {
+      alert('color me bad, wrong answer');
+      console.log('not my color');
+    }
+  }
 }
+color();
 
 
 
@@ -125,4 +122,4 @@ for(var i = 0; i < 6; i++){
       
 
 var playAgain = confirm('A strange game. The only winning move is not to play. A nice game of chess or play again?');
-console.log(playAgain)
+console.log(playAgain);
